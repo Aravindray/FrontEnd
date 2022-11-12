@@ -46,3 +46,22 @@ li:only-child {
 .indexpage:visited {
     color: pink;
 }
+/* to command something in css this is the shortcut - select the text and then click ctrl + slash  or type manually with * asterisk with / forward slash */
+h4 + a {
+    color: yellow;
+    background-color: black;
+}
+textarea ~ button {
+    color: white;
+    background-color: aquamarine;
+    border: aquamarine;
+}
+#idul_3 > #idli_3 {
+    color: gold;
+}
+#idul_3 #idli_3_ol {
+    color: #ff006e;
+}
+img[src="Milky_way_map.png"] {
+    border: 10px solid pink;
+}

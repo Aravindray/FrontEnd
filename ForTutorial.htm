@@ -22,10 +22,13 @@
         <p><dl>
             <dt>1. The Element Selector</dt>
             <dd>- This begins with basic tag</dd>
+            <textarea>h { color: "color" }</textarea><br>
             <dt>2. The Class Selector</dt>
             <dd>- This begins with . (period)</dd>
+            <textarea>.class_name { color: "color"} </textarea><br>
             <dt>3. The ID Selector</dt>
             <dd>- This begins with #</dd>
+            <textarea>#id_name { color: "color"}</textarea><br>
         </dl>
         <b>Classes and Id - We have to assign the class and ID attribute in the tag and call it in css file with . and #  respectively.</b>
         <h3>Specificity & When to use selectors</h3>
@@ -39,12 +42,35 @@
             <li>and finally the element selectors</li>
         </ol><br>
         <a href="https://css-tricks.com/pseudo-class-selectors/" target="_blank" rel="noopener noreferrer" class="indexpage"><h3 class="pseudo_1">Pseudoselectors</h3></a>
-        1. Hover the arrow key in above title. <br> 2. Then first child and last child - in a list we can differentiate those colors for 1st and last point and with the help of nth-child(n) we can differentiate the color of nth number of the list.<br> Tip: we can't color the first and last child at the same time.<br>
+        1. Hover the arrow key in above title. <br> 2. Then first child and last child - in a list we can differentiate those colors for 1st and last point and with the help of nth-child(n) we can differentiate the color of nth point of the list.<br> Tip: we can't color the first and last child at the same time.<br>
         Let's check for only child:
         <ul>
             <li>I am only one child for this list</li>
         </ul>
         <br><h3>Advanced Selectors</h3>
+        <b>Basic Advance Selectors</b><br><br>
+        1. we can concat 2 element selectors with + (plus) icon. wow! this is really awesome. <br><textarea>h4 + a {color: "color"}</textarea>
+        <h4>A small Heading</h4>
+        <a href="https://wwww.bing.com" target="_blank" rel="noopener noreferrer">This is bing website</a><br><br>
+        2. General Sibing Selectors - is goes for the same parents with the concat symbol is <b>~</b> tilde.<br> <textarea>textarea ~ button {color: "color"} - Here textarea and button sharing the same parents</textarea><br>
+        <form>
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email">
+            <textarea></textarea>
+            <button>submit</button>
+        </form><br>
+        3. Trail selector - it used > (greater-than) as concat element, this selector select every single element inside the ul or parent tag.<br><textarea>ul > li {color: "color"} This is direct child selector</textarea>
+        <ul id="idul_3">
+            <li id="idli_3">some data</li>
+            <li id="idli_3_ol">data some other name <b>descendants</b><br>[another selector without concat element look like this <textarea rows="5">ul li { color: "color" }This select both child and gradchild inside the parent tag</textarea>]
+                <ol>
+                    <li>point 1</li>
+                    <li>point 2</li>
+                </ol>
+            </li>
+        </ul>
+        <br><h3>Attribute Selectors</h3>
+        <img src="Milky_way_map.png" height="100" width="100"/>
         </p>
         <hr>
     </body>
