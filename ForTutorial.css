@@ -1,6 +1,9 @@
 body {
     background: white;
 }
+h3 {
+    color: cyan;
+}
 .day_2{
     color: blue;
 }
@@ -10,3 +13,20 @@ body {
 #day_1 {
     color: green;
 }
+
+#listid_2 {
+    color: #fb5607;
+}
+
+.listclass_3 {
+    color: #ff006e;
+}
+
+li {
+    color: #8338ec;
+}
+
+.pseudo_1:hover{
+    color: #fca311;
+}
+
