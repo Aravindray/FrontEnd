@@ -13,20 +13,36 @@ h3 {
 #day_1 {
     color: green;
 }
-
 #listid_2 {
     color: #fb5607;
 }
-
 .listclass_3 {
     color: #ff006e;
 }
-
 li {
     color: #8338ec;
 }
-
 .pseudo_1:hover{
     color: #fca311;
 }
-
+dt:first-child {
+    color: steelblue;
+}
+dd:last-child {
+    color: pink;
+}
+li:first-child:hover{
+    color: darkorange;
+}
+li:nth-child(2):hover{
+    color: #a2d2ff;
+}
+li:only-child {
+    color: purple;
+}
+.indexpage:link {
+    color: darkblue;
+}
+.indexpage:visited {
+    color: pink;
+}
