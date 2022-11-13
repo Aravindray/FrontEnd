@@ -26,10 +26,10 @@ li {
     color: #fca311;
 }
 dt:first-child {
-    color: steelblue;
+    color: pink;
 }
 dd:last-child {
-    color: pink;
+    color: yellow;
 }
 li:first-child:hover{
     color: darkorange;
@@ -65,11 +65,9 @@ textarea ~ button {
 img[src="Milky_way_map.png"] {
     border: 10px solid pink;
 }
-
 h5[class~=white-space]{
     background: #fb8500;
 }
-
 .some {
     color: white;
 }
