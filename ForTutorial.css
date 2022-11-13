@@ -65,3 +65,14 @@ textarea ~ button {
 img[src="Milky_way_map.png"] {
     border: 10px solid pink;
 }
+
+h5[class~=white-space]{
+    background: #fb8500;
+}
+
+.some {
+    color: white;
+}
+.some:hover {
+    color: black;
+}
